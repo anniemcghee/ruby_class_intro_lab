@@ -32,7 +32,7 @@ class Starship
 			"You are now going #{current_speed} MPH."
 		else
 			current_speed = @top_speed
-			"Sorry! You can only go #{@top_speed} MPH here."
+			"Sorry! You can only go #{current_speed} MPH here."
 		end
 	end
 end
