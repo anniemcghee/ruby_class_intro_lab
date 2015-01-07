@@ -17,18 +17,20 @@ class Dice
 	def roll 
 		num = rand(1..@sides)
 		@array.push num
-		"You rolled a #{num}!"
+		p "You rolled a #{num}!"
 	end
 
 	def get_rolls
-		@array
+		p @array
 	end
 end
 
 game1 = Dice.new 8
 
-p game1.roll
+game1.roll
 
-p game1.roll
+game1.roll
 
-p game1.get_rolls
+game1.roll
+
+game1.get_rolls
